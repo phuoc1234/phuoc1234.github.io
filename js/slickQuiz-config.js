@@ -5,7 +5,7 @@
 var quizJSON = {
     "info": {
         "name":    "Trắc nghiệm Online",
-        "main":    "<p>Ứng dụng đơn giản kiểm tra kiến thức của bạn</p>",
+        "main":    "<p>Ứng dụng đơn giản kiểm tra kiến thức của bạn</br><span>Them ten nhom tai day</span></p>",
         "results": "<h5>Chúc mừng bạn đã hoàn thành bài test.</h5><p></p>",
         "level1":  "Kiến thức bạn đạt level 1",
         "level2":  "Kiến thức bạn đạt level 2",
