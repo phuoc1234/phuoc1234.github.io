@@ -16,8 +16,8 @@
             _element = '#' + $element.attr('id'),
 
             defaults = {
-                checkAnswerText:  'Check My Answer!',
-                nextQuestionText: 'Next &raquo;',
+                checkAnswerText:  'Kiểm tra kết quả!',
+                nextQuestionText: 'Tiếp theo &raquo;',
                 backButtonText: '',
                 tryAgainText: '',
                 skipStartButton: false,
@@ -141,7 +141,7 @@
                         var question = questions[i];
 
                         var questionHTML = $('<li class="' + questionClass +'" id="question' + (count - 1) + '"></li>');
-                        questionHTML.append('<div class="' + questionCountClass + '">Question <span class="current">' + count + '</span> of <span class="total">' + questionCount + '</span></div>');
+                        questionHTML.append('<div class="' + questionCountClass + '">Câu hỏi <span class="current">' + count + '</span> trong <span class="total">' + questionCount + '</span></div>');
                         questionHTML.append('<h3>' + count + '. ' + question.q + '</h3>');
 
                         // Count the number of true values
